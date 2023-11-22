@@ -3,7 +3,7 @@ import Tweetauthor from "./Tweetauthor";
 
 import Tweettitle from "./Tweettitle";
 import Tweetaction from "./Tweetaction";
-import Img from "./../images/tweet-profile-photo.png"
+import Img from "./../images/cnn.svg"
 import time from "./../images/time.svg"
 import twitter from "./../images/twitter.svg"
 import Image from "./../images/tweet-image.png"
