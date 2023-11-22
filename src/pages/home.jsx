@@ -1,13 +1,21 @@
 import React from 'react';
 import Header from '../components/Header';
-import Createtweet from '../components/Create-tweet';
+import Tweeteditor from '../components/Tweeteditor';
 import Tweets from '../components/Tweets';
+
+// import Tweet from '../components/Tweet';
+// import Tweetavatar from '../components/Tweetavatar'
+// import Tweettitle from '../components/Tweettitle';
+// import Tweetautor from '../components/Tweetautor.jsx';
+// import Tweetaction from '../components/Tweetaction';
 function Home() {
   return (
     <main className="timeline">
       <Header/>
-      <Createtweet/>
+      <Tweeteditor/>
       <Tweets/>
+      
+      
     </main>
   );
 }
