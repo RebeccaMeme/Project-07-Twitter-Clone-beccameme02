@@ -57,9 +57,9 @@ function Tweet() {
       author: "Twitter",
       user: "@twitter",
       time: ".Oct4",
-      retweet: "",
-      comment: "",
-      react: ""
+      retweet: "56",
+      comment: "138",
+      react: "3,8M"
     }
    
 
