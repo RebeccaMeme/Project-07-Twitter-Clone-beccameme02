@@ -2,7 +2,7 @@
 import ReactImage from "./../images/React.svg"
 import Reply from "./../images/Reply.svg"
 import Share from "./../images/Share.svg"
-import Group from "./../images/Group.svg"
+import Groupe from "./../images/Group.svg"
 
 
 
@@ -14,7 +14,7 @@ function Tweetaction(props) {
         <span>{props.comment}</span>
       </span>
       <span className="tweet-action">
-        <img src={Group} alt="" />
+        <img src={Groupe} alt="" />
         <span>{props.retweet}</span>
       </span>
       <span className="tweet-action">
