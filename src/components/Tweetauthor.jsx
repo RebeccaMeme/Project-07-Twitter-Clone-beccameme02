@@ -1,5 +1,3 @@
-
-
 function Tweetauthor() {
   return (
     <div className="tweetautor">
