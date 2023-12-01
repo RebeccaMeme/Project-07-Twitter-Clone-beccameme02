@@ -1,6 +1,4 @@
-
 import Tweetauthor from "./tweetAuthor";
-
 import Tweettitle from "./tweetTitle";
 import Tweetaction from "./tweetAction";
 import Img from "./../images/cnn.svg"
@@ -25,7 +23,7 @@ function Tweet() {
       profile: time,
       author: "New York Time",
       user: "@nyt",
-      img:Image,
+      img: Image,
       time: "2h",
       retweet: 8,
       comment: "38",
@@ -37,13 +35,13 @@ function Tweet() {
       author: "Twitter",
       user: "@twitter",
       time: ".Oct29",
-      retweet:"68K" ,
+      retweet: "68K",
       comment: "36.0K",
       react: "267.1K"
     },
     {
       text: "hello literally everyone",
-      profile:twitter,
+      profile: twitter,
       author: "Twitter",
       user: "@twitter",
       time: ".Oct4",
@@ -61,17 +59,12 @@ function Tweet() {
       comment: "138",
       react: "3,8M"
     }
-   
-
   ]
-
-
   return (
     <>
       {tweets.map((tweet, index) => {
         return (
           <div className="tweet" key={index}>
-
             <img src={tweet.profile} className="tweet-avatar" />
             <div className="tweet-content">
               <div className="tweet-body">
@@ -85,14 +78,7 @@ function Tweet() {
               </div>
               <Tweetaction comment={tweet.comment} retweet={tweet.retweet} react={tweet.react} />
             </div>
-
-
             <Tweetauthor />
-
-
-
-
-
           </div>
         )
       })}
