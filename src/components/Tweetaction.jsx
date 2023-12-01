@@ -6,7 +6,7 @@ import Groupe from "./../images/Group.svg"
 
 
 
-function Tweetaction(props) {
+function TweetAction(props) {
   return (
     <div className="tweet-actions">
       <span className="tweet-action">
@@ -27,4 +27,4 @@ function Tweetaction(props) {
     </div>
   )
 }
-export default Tweetaction;
+export default TweetAction;

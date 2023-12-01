@@ -6,7 +6,7 @@ import Emoji from "./../images/Emoji.svg"
 import Schedule from "./../images/Schedule.svg"
 
 
-function Tweeteditor() {
+function TweetEditor() {
     return (
         <div className="tweet-editor">
             <img className="avatar" src={Img} />
@@ -28,4 +28,4 @@ function Tweeteditor() {
         </div>
     )
 }
-export default Tweeteditor;
+export default TweetEditor;

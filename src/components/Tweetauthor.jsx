@@ -1,11 +1,8 @@
 
-function Tweetauthor() {
+function TweetAuthor() {
   return (
     <div className="tweetautor">
     </div>
-
-    
-
   )
 }
-export default Tweetauthor;
+export default TweetAuthor;

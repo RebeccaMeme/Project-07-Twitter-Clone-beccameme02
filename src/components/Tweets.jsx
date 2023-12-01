@@ -1,5 +1,5 @@
 
-import Tweet from "./Tweet";
+import Tweet from "./tweet";
 
 function Tweets() {
   return (

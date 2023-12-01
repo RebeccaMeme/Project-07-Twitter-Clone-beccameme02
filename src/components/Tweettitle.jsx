@@ -1,5 +1,5 @@
 import imag from "./../images/Vector.svg";
-function Tweettitle(props){
+function TweetTitle(props){
     return(
       <>
       <div className="tweet-title">
@@ -13,4 +13,4 @@ function Tweettitle(props){
        
     )
 }
-export default Tweettitle; 
+export default TweetTitle; 

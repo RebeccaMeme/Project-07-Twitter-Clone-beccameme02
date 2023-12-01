@@ -1,8 +1,8 @@
 
-import Tweetauthor from "./Tweetauthor";
+import Tweetauthor from "./tweetAuthor";
 
-import Tweettitle from "./Tweettitle";
-import Tweetaction from "./Tweetaction";
+import Tweettitle from "./tweetTitle";
+import Tweetaction from "./tweetAction";
 import Img from "./../images/cnn.svg"
 import time from "./../images/time.svg"
 import twitter from "./../images/twitter.svg"
