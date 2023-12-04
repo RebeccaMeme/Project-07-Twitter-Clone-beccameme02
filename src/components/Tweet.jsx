@@ -1,6 +1,6 @@
-import Tweetauthor from "./tweetAuthor";
-import Tweettitle from "./tweetTitle";
-import Tweetaction from "./tweetAction";
+import TweetAuthor from "./tweetAuthor";
+import TweetTitle from "./tweetTitle";
+import TweetAction from "./tweetAction";
 import Img from "./../images/cnn.svg"
 import time from "./../images/time.svg"
 import twitter from "./../images/twitter.svg"
@@ -62,23 +62,23 @@ function Tweet() {
   ]
   return (
     <>
-      {tweets.map((tweet, index) => {
+      {tweets.map((Tweet, index) => {
         return (
           <div className="tweet" key={index}>
-            <img src={tweet.profile} className="tweet-avatar" />
+            <img src={Tweet.profile} className="tweet-avatar" />
             <div className="tweet-content">
               <div className="tweet-body">
-                <Tweettitle author={tweet.author} user={tweet.user} time={tweet.time} />
+                <TweetTitle author={Tweet.author} user={Tweet.user} time={Tweet.time} />
                 <p className="tweet-text">
-                  {tweet.text}
+                  {Tweet.text}
                 </p>
                 <div className="tweet-image">
-                  <img src={tweet.img} alt="" />
+                  <img src={Tweet.img} alt="" />
                 </div>
               </div>
-              <Tweetaction comment={tweet.comment} retweet={tweet.retweet} react={tweet.react} />
+              <TweetAction comment={Tweet.comment} retweet={Tweet.retweet} react={Tweet.react} />
             </div>
-            <Tweetauthor />
+            <TweetAuthor />
           </div>
         )
       })}
