@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
 }
 
-.timeline {
+.timeline{
     flex: 0 0 800px;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
@@ -193,3 +193,49 @@ body{
     justify-content: center;
     gap: 20px;
 }
+.left-sidebar{
+position: fixed;
+margin-top: 0;
+margin-left: 0;
+width: 250px;
+height: 15px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+.lists{
+    margin-bottom: 20px;
+}
+.a:hover{
+    text-decoration: underline;
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.home{
+    margin-bottom: 20px;
+}
+.explore{
+    margin-bottom: 20px;
+}
+.notifications{
+    margin-bottom: 20px;
+}
+.messages{
+    margin-bottom: 20px;
+}
+.bookmarks{
+    margin-bottom: 20px;
+}
+.profile{
+    margin-bottom: 20px;
+}
+.more{
+    margin-bottom: 20px;
+}
+.profilephoto{
+    margin-bottom: 20px;
+}
+
+
+ 
