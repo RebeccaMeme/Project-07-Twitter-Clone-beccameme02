@@ -194,16 +194,21 @@ body{
     gap: 20px;
 }
 .left-sidebar{
-position: fixed;
-margin-top: 0;
-margin-left: 0;
-width: 250px;
-height: 15px;
-background-color: #f2f2f2;
-padding: 20px;
+flex: 0 0 100px;
+font-family: 'Inter', sans-serif;
+
 }
+
+.left-sidebar > div div{
+  gap: 2em;
+  display: flex;
+  
+}
+
+
 .lists{
     margin-bottom: 20px;
+    gap: 2em;
 }
 .a:hover{
     text-decoration: underline;
@@ -211,31 +216,59 @@ padding: 20px;
 .logo{
     width: 100%;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 2em;
 }
 .home{
     margin-bottom: 20px;
+    display: flex;
 }
 .explore{
     margin-bottom: 20px;
+    gap: 1em;
 }
 .notifications{
     margin-bottom: 20px;
+    gap: 3em;
 }
 .messages{
     margin-bottom: 20px;
+    gap: 1em;
 }
 .bookmarks{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    gap: 1em;
 }
 .profile{
     margin-bottom: 20px;
+    gap: 2em;
 }
 .more{
     margin-bottom: 20px;
+    gap: 3em;
 }
 .profilephoto{
-    margin-bottom: 20px;
+    margin-top: 1000px;
+    gap: 3em;
 }
-
-
+.buttonsidebar {
+    text-transform: capitalize;
+    padding: .7rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #1D9BF0;
+    color: white;
+}
  
+.buttonsidebar:hover {
+    background-color: #a4dbf5;
+  }
+  .rignt-sidebar{
+    flex: 0 0 100px;
+    font-family: 'Inter', sans-serif;
+    ;
+  }
+
+
+
