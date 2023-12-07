@@ -1,6 +1,6 @@
 function ButtonSidebar() {
     return (
-        <div class="buttonsidebar">
+        <div className="buttonsidebar">
             <a href="#">Tweet</a>
         </div>
 

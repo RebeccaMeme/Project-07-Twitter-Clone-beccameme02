@@ -193,15 +193,23 @@ body{
     justify-content: center;
     gap: 20px;
 }
-.left-sidebar{
+/*.left-sidebar{
 flex: 0 0 100px;
 font-family: 'Inter', sans-serif;
+position: sticky;
+height: 100%;
+top: 0;
 
-}
+}*/
 
 .left-sidebar > div div{
-  gap: 2em;
-  display: flex;
+gap: 2em;
+ display: flex;
+ flex: 0 0 100px;
+font-family: 'Inter', sans-serif;
+position: sticky;
+height: 100%;
+top: 0;
   
 }
 
@@ -269,6 +277,40 @@ font-family: 'Inter', sans-serif;
     font-family: 'Inter', sans-serif;
     ;
   }
+.trends{
+    font-family: 'Inter', sans-serif;
+    position: sticky;
+    height: 100%;
+    top: 0; 
+}
+.searchBox{
+    background-color: transparent;
+    
+}
+input{
+    background-color: rgba(56, 50, 50, 0.952);
+    color: #dcdcdcf5;
+    border: none;
+    font-size: 0.7rem;
+   
+
+}
+.searchText{
+    background-color: rgba(56, 50, 50, 0.952);
+    border-radius: 10px;
+    text-align: center;
+    padding: .3rem 2.5rem;
+    display: flexbox;
+    
+}
+.followLists{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    font-size: 1rem;
+    gap: 2em;
+}
 
 
 
