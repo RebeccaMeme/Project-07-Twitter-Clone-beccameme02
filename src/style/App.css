@@ -194,7 +194,7 @@ body{
     gap: 20px;
 }
 /*.left-sidebar{
-flex: 0 0 100px;
+
 font-family: 'Inter', sans-serif;
 position: sticky;
 height: 100%;
@@ -202,64 +202,16 @@ top: 0;
 
 }*/
 
-.left-sidebar > div div{
-gap: 2em;
+.link{
+    gap: 1rem;
  display: flex;
- flex: 0 0 100px;
+
+ align-items: center;
 font-family: 'Inter', sans-serif;
-position: sticky;
-height: 100%;
-top: 0;
-  
 }
 
 
-.lists{
-    margin-bottom: 20px;
-    gap: 2em;
-}
-.a:hover{
-    text-decoration: underline;
-}
-.logo{
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    gap: 2em;
-}
-.home{
-    margin-bottom: 20px;
-    display: flex;
-}
-.explore{
-    margin-bottom: 20px;
-    gap: 1em;
-}
-.notifications{
-    margin-bottom: 20px;
-    gap: 3em;
-}
-.messages{
-    margin-bottom: 20px;
-    gap: 1em;
-}
-.bookmarks{
-    margin-bottom: 30px;
-    gap: 1em;
-}
-.profile{
-    margin-bottom: 20px;
-    gap: 2em;
-}
-.more{
-    margin-bottom: 20px;
-    gap: 3em;
-}
-.profilephoto{
-    margin-top: 1000px;
-    gap: 3em;
-}
+
 .buttonsidebar {
     text-transform: capitalize;
     padding: .7rem 1.5rem;
@@ -275,32 +227,39 @@ top: 0;
   .rignt-sidebar{
     flex: 0 0 100px;
     font-family: 'Inter', sans-serif;
-    ;
+    
   }
 .trends{
     font-family: 'Inter', sans-serif;
-    position: sticky;
     height: 100%;
     top: 0; 
 }
 .searchBox{
-    background-color: transparent;
-    
-}
-input{
-    background-color: rgba(56, 50, 50, 0.952);
-    color: #dcdcdcf5;
-    border: none;
-    font-size: 0.7rem;
-   
+        height: 3rem;
+        width: 15rem;
+        border-radius: 8rem;
+        background-color: #272D33;
+        display: flex;
+        padding: 0.5rem;
+    }
+    .iconSearch {
+       height: 1rem; 
 
-}
+    }
+    .inputSearch {
+        background-color: #272D33;
+        border: none;
+        outline: none;
+        color: white;
+
+    }
 .searchText{
-    background-color: rgba(56, 50, 50, 0.952);
-    border-radius: 10px;
-    text-align: center;
-    padding: .3rem 2.5rem;
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+   
     
 }
 .followLists{
