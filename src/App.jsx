@@ -1,5 +1,5 @@
 import Home from "./pages/home.jsx";
-import RigntSidebar from "./components/rignt-sidebar.jsx"; 
+import Trends from "./components/rignt-sidebar.jsx"; 
 import Layout from "./components/layout.jsx";
 import LeftSidebar from "./components/left-sidebar.jsx";
 import('./style/reset.css');
@@ -10,7 +10,7 @@ export default function App() {
     <Layout>
      <LeftSidebar/> 
       <Home />
-      <RigntSidebar/>
+      <Trends/>
 
     </Layout>
   );
