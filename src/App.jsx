@@ -1,17 +1,17 @@
 import Home from "./pages/home.jsx";
-import Trends from "./components/rignt-sidebar.jsx"; 
-import Layout from "./components/layout.jsx";
-import LeftSidebar from "./components/left-sidebar.jsx";
 import('./style/reset.css');
 import('./style/App.css');
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Profile from "./pages/profile.jsx";
 
 export default function App() {
   return (
-    <Layout>
-     <LeftSidebar/> 
-      <Home />
-      <Trends/>
-
-    </Layout>
+     <BrowserRouter>
+     <Routes>
+      <Route path="/" element={<Home/>} /> 
+      <Route path="/profile" element={<Profile/>}/>
+     </Routes>  
+      </BrowserRouter>
   );
 }
+

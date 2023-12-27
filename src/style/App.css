@@ -193,22 +193,25 @@ body{
     justify-content: center;
     gap: 20px;
 }
-/*.left-sidebar{
+.left-sidebar{
 
 font-family: 'Inter', sans-serif;
 position: sticky;
 height: 100%;
 top: 0;
+margin-right: 50px;
+gap: 10rem;
 
-}*/
+}
 
-.link{
+/*.link{
     gap: 1rem;
  display: flex;
 
  align-items: center;
 font-family: 'Inter', sans-serif;
-}
+margin-right: 100px;
+}*/
 
 
 
@@ -219,11 +222,8 @@ font-family: 'Inter', sans-serif;
     border-radius: 50px;
     background-color: #1D9BF0;
     color: white;
+    font-size: 1rem;
 }
- 
-.buttonsidebar:hover {
-    background-color: #a4dbf5;
-  }
  /* .rignt-sidebar{
     flex: 0 0 100px;
     font-family: 'Inter', sans-serif;
@@ -262,19 +262,31 @@ font-family: 'Inter', sans-serif;
    
     
 }
-.followLists{
+.bradley{
+    flex-direction: row;
+    display: flex;
+}
+.ortiz{
+    justify-content: space-between;
+    flex-direction: row;
+    
+    align-items: center;
+    gap: 1rem; 
+}
+/*.followLists{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     
     font-size: 1rem;
     gap: 2em;
-}
+}*/
 .Trends{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-right: -15rem;
+    margin-left: 50px;
+    width: 300;
 
    
 }
@@ -290,13 +302,7 @@ font-family: 'Inter', sans-serif;
 .trendingLists div{
 
 }
-.AccountFollow{
-    background-color: #2F3336;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 20rem ;
-    flex-direction: column;  
-}
+
 .trendingTitle{
     display: flex;
     justify-content: space-between;
@@ -315,22 +321,54 @@ font-family: 'Inter', sans-serif;
     color: #D9D9D9;
 }
 .AccountFollow div{
-
-}
-.timeFollow{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
-    padding-right: 3rem;
-    justify-content: space-between;
     
-
 }
-.temsFol{
+.AccountFollow{
+    display: flex;
+    /*flex-direction: column;*/
+    margin: 1rem 0;
+    color: #6E767D;
+    
+}
+.accaountName{
+    /* display: flex;
+   flex-direction: column;
+    margin: 1rem 0;
+    padding-right: 3rem;*/
+    justify-content: space-between;
+}
+.followLists{
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    margin-right: -15rem; 
+    background-color: #2F3336;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 20rem;
+}
+.accaount{
+    display: flex;
     justify-content: space-between;
-
+    padding-left: 0.5rem;
+    gap: 2rem;
+    color:whitesmoke;
+}
+.paragraph{
+    padding-left: 1rem;   
+}
+.buttonFollow{
+    padding: .3rem 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: black;   
+}
+h5{
+    color: #1D9BF0;
+}
+p{
+color: #6E767D;
 }
 
   

@@ -5,6 +5,7 @@ function AccountFollow(props) {
             <span>{props.text}</span>
              
         </div>
+        
     )
 }
 export default AccountFollow;

@@ -1,5 +1,5 @@
 
-function Link(props) {
+function MyLink(props) {
 
     
     return(
@@ -10,4 +10,4 @@ function Link(props) {
     )
     
 }
-export default Link;
+export default MyLink;
