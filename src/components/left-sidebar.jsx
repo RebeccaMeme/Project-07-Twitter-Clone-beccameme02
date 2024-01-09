@@ -20,7 +20,7 @@ function LeftSidebar() {
         <div className="left-sidebar">
             <LogoSidebar />
             <NavLink to='/'>
-            <MyLink text="Home" urlImage={Home} />
+              <MyLink text="Home" urlImage={Home} />
             </NavLink>
             <MyLink text="Explore" urlImage={Explore} />
             <MyLink text="Notifications" urlImage={Notification} />

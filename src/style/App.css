@@ -200,7 +200,9 @@ position: sticky;
 height: 100%;
 top: 0;
 margin-right: 50px;
-gap: 10rem;
+gap: 4rem;
+display: flex;
+flex-direction: column;
 
 }
 
