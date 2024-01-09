@@ -196,24 +196,17 @@ body{
 .left-sidebar{
 
 font-family: 'Inter', sans-serif;
-position: sticky;
-height: 100%;
-top: 0;
-margin-right: 50px;
-gap: 4rem;
-display: flex;
-flex-direction: column;
-
+position: fixed;
 }
-
-/*.link{
-    gap: 1rem;
- display: flex;
-
- align-items: center;
-font-family: 'Inter', sans-serif;
-margin-right: 100px;
-}*/
+.left-sidebar  MyLink{
+    height: 100%;
+    top: 0;
+   /* margin-right: 50px;*/
+    gap: 3rem;
+    flex-direction: column;
+    /*padding-right: 1rem;*/
+    justify-content: right;
+}
 
 
 
@@ -287,8 +280,8 @@ margin-right: 100px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-left: 50px;
-    width: 300;
+    margin-left: 20px;
+    width: 800;
 
    
 }

@@ -27,7 +27,7 @@ function LeftSidebar() {
             <MyLink text="Messages" urlImage={Message} />
             <MyLink text="Bookmarks" urlImage={Bookmark} />
             <MyLink text="Lists" urlImage={Lists} />
-            <NavLink to='/profile'>
+            <NavLink to='/Profile'>
                 <MyLink text="Profile" urlImage={Profile} />
             </NavLink>
             
