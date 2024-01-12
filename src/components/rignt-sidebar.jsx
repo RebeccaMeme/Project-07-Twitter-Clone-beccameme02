@@ -15,7 +15,7 @@ import Verified from "./../images/Vector.svg"
 function Trends() {
     return (
         <>
-            <div className="Trends">
+            <div className="right-sidebar">
                 <SearchBox />
                 <div className="trendingLists">
                     <div className="trendingTitle">
@@ -103,9 +103,9 @@ function Trends() {
                 <h5>Show more</h5>
                 </div>
                 <p>
-            Terms of Service PrivacyPolicy Cookie Policy <br />
-             Imprint Ads info More 0 2021 Twitter,inc.
-            </p>
+                    Terms of Service PrivacyPolicy Cookie Policy <br />
+                    Imprint Ads info More 0 2021 Twitter,inc.
+                </p>
             </div>
             
              

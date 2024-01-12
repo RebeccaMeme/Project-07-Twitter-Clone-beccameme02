@@ -1,4 +1,4 @@
-import TweetAuthor from "./tweetAuthor";
+import TweetAuthor from "./Tweetauthor";
 import TweetTitle from "./tweetTitle";
 import TweetAction from "./tweetAction";
 import Img from "./../images/cnn.svg"
