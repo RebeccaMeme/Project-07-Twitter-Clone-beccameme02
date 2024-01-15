@@ -5,8 +5,6 @@ import Img from "./../images/cnn.svg"
 import time from "./../images/time.svg"
 import twitter from "./../images/twitter.svg"
 import Image from "./../images/tweet-image.png"
-import {useState} from "react"
-
 function Tweet() {
   const tweets = [
     {
@@ -55,16 +53,14 @@ function Tweet() {
       profile: twitter,
       author: "Twitter",
       user: "@twitter",
+      img: Image,
       time: ".Oct4",
       retweet: "56",
       comment: "138",
       react: "3,8M"
     }
   ]
-  const [TweetActionColor,setTweetActionColor] = useState("white")
-  const handleClick = ()=>{
-    setTweetActionColor("red")
-  }
+  
   
   return (
     <>
@@ -88,11 +84,6 @@ function Tweet() {
           </div>
         )
       })}
-    
-      <button onClick={handleClick}></button>
-  
-    
-
     </>
   )
  
