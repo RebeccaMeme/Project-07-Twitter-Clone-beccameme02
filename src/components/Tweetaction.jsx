@@ -22,7 +22,8 @@ function TweetAction (props) {
         {props.retweet}
       </span>
       <span className="tweet-action" onClick={handleClick3} style={{color: color3}}>
-        <img src={ReactImage} alt="" />
+        {/* <img src={ReactImage} alt="" /> */}
+        <Icon icon="icon-park-outline:like" style={{color: color3}}/>
         {props.react}
       </span>
       <span className="tweet-action">
