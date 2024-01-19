@@ -1,12 +1,10 @@
-import TweetAuthor from "./tweetAuthor";
-import TweetTitle from "./tweetTitle";
-import TweetAction from "./tweetAction";
+import TweetAuthor from "./Tweetauthor";
+import TweetTitle from "./Tweettitle";
+import TweetAction from "./Tweetaction";
 import Img from "./../images/cnn.svg"
 import time from "./../images/time.svg"
 import twitter from "./../images/twitter.svg"
 import Image from "./../images/tweet-image.png"
-import { useState } from "react";
-
 function Tweet() {
   const tweets = [
     {
@@ -55,12 +53,15 @@ function Tweet() {
       profile: twitter,
       author: "Twitter",
       user: "@twitter",
+      img: Image,
       time: ".Oct4",
       retweet: "56",
       comment: "138",
       react: "3,8M"
     }
   ]
+
+
   return (
     <>
       {tweets.map((Tweet, index) => {
@@ -83,30 +84,10 @@ function Tweet() {
           </div>
         )
       })}
-
     </>
   )
+
+
 }
-//function Action() {
-  //const [action, setAction] = useState({
-    //comment: "144",
-    //retweet: 57,
-    //react: "184"
-  //});
-  //const handleUpdate = (key, Value) => {
-    //const newAction = { ...Action, [key]: Value }
-    //setAction(Action)
-  //}
-  //return (
-    //<>
-      //<button onClick={() => { setAction({ comment: "value" }) }}>
-      //</button>
-      //<button onClick={() => { setAction({ retweet: "value" }) }}>
-      //</button>
-      //<button onClick={() => { setAction({ react: "value" }) }}>
-      //</button>
-    //</>
- // )
-//}
 export default Tweet
 
