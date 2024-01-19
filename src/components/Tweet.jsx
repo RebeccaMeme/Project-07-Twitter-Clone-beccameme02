@@ -1,6 +1,6 @@
 import TweetAuthor from "./Tweetauthor";
-import TweetTitle from "./tweetTitle";
-import TweetAction from "./tweetAction";
+import TweetTitle from "./Tweettitle";
+import TweetAction from "./Tweetaction";
 import Img from "./../images/cnn.svg"
 import time from "./../images/time.svg"
 import twitter from "./../images/twitter.svg"
@@ -60,8 +60,8 @@ function Tweet() {
       react: "3,8M"
     }
   ]
-  
-  
+
+
   return (
     <>
       {tweets.map((Tweet, index) => {
@@ -86,8 +86,8 @@ function Tweet() {
       })}
     </>
   )
- 
 
-    }
+
+}
 export default Tweet
 
