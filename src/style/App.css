@@ -11,11 +11,12 @@ body{
 #root{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 
 .timeline{
-    flex: 0 0 800px;
+    flex: 0 0 600px;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
@@ -101,6 +102,7 @@ body{
     background-color: #1D9BF0;
     color: white;
     font-size: 1rem;
+    align-items: center;
 }
 .tweet{
     display: flex;
@@ -118,8 +120,8 @@ body{
 }
 
 .tweet-avatar img{
-    max-width: 100%;
-    max-height: 100px;
+    max-width: 5rem;
+    max-height: 3rem;
     border-radius: 100%;
 }
 .tweet-content{
@@ -181,10 +183,11 @@ body{
     font-size: 1rem;
 }
 
-.tweet-actions svg {
+.tweet-actions svg{
     width: 1rem;
     height: auto;
     color: #2F3336;
+      
 }
 
 .tweet-action{
@@ -193,73 +196,27 @@ body{
     justify-content: center;
     gap: 20px;
 }
-/*.left-sidebar{
-flex: 0 0 100px;
-font-family: 'Inter', sans-serif;
-position: sticky;
-height: 100%;
-top: 0;
-
-}*/
-
-.left-sidebar > div div{
-gap: 2em;
- display: flex;
- flex: 0 0 100px;
-font-family: 'Inter', sans-serif;
-position: sticky;
-height: 100%;
-top: 0;
-  
-}
-
-
-.lists{
-    margin-bottom: 20px;
-    gap: 2em;
-}
-.a:hover{
-    text-decoration: underline;
-}
-.logo{
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    gap: 2em;
-}
-.home{
-    margin-bottom: 20px;
+.left-sidebar{
     display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 1.5rem;
+    font-size: 0.8rem;
 }
-.explore{
-    margin-bottom: 20px;
-    gap: 1em;
+.left-sidebar  MyLink{
+    /* height: 100%;
+    top: 0; */
+   
+    /*padding-right: 1rem;*/
+    /* justify-content: right; */
 }
-.notifications{
-    margin-bottom: 20px;
-    gap: 3em;
-}
-.messages{
-    margin-bottom: 20px;
-    gap: 1em;
-}
-.bookmarks{
-    margin-bottom: 30px;
-    gap: 1em;
-}
-.profile{
-    margin-bottom: 20px;
-    gap: 2em;
-}
-.more{
-    margin-bottom: 20px;
-    gap: 3em;
-}
-.profilephoto{
-    margin-top: 1000px;
-    gap: 3em;
-}
+
+
+
 .buttonsidebar {
     text-transform: capitalize;
     padding: .7rem 1.5rem;
@@ -267,50 +224,202 @@ top: 0;
     border-radius: 50px;
     background-color: #1D9BF0;
     color: white;
+    text-align: center;
 }
- 
-.buttonsidebar:hover {
-    background-color: #a4dbf5;
-  }
-  .rignt-sidebar{
-    flex: 0 0 100px;
-    font-family: 'Inter', sans-serif;
-    ;
-  }
+ .rignt-sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem; 
+    height: 20rem;
+    top: 0;
+    right: 0;
+    padding: 1.5rem; 
+     
+  } 
 .trends{
     font-family: 'Inter', sans-serif;
-    position: sticky;
     height: 100%;
-    top: 0; 
+    top: 0;
+    gap: 2rem; 
+    
 }
 .searchBox{
-    background-color: transparent;
-    
-}
-input{
-    background-color: rgba(56, 50, 50, 0.952);
-    color: #dcdcdcf5;
-    border: none;
-    font-size: 0.7rem;
-   
+        height: 3rem;
+        width: 15rem;
+        border-radius: 8rem;
+        background-color: #272D33;
+        display: flex;
+        margin: 10px 20px;
+        padding: 10px;
+    }
+    .iconSearch {
+       height: 1rem; 
 
-}
+    }
+    .inputSearch {
+        background-color: #272D33;
+        border: none;
+        outline: none;
+        color: white;
+        width: 15rem;
+
+    }
 .searchText{
-    background-color: rgba(56, 50, 50, 0.952);
-    border-radius: 10px;
-    text-align: center;
-    padding: .3rem 2.5rem;
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+   
     
+}
+.bradley{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+.ortiz{
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+    align-items: center;
+    gap: 1rem; 
+}
+.Trends{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 20px;
+    width: 800;
+    font-size: 30px;
+
+   
+}
+.trendingLists{
+    background-color: #2F3336;
+    padding: 2rem;
+
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.trendingTitle{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.trendingBlock{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    color: #6E767D;
+    
+}
+.tredingBlockTitle{
+ display: flex;
+ justify-content: space-between;   
+}
+.squid{
+    color: #D9D9D9;
+}
+
+.AccountFollow{
+    display: flex;
+    margin: 1rem 0;
+    color: #6E767D;
+    
+}
+.accaountName{
+    justify-content: space-between;
+}
+.accaount{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    color:whitesmoke;
+    gap: 1.5rem;
 }
 .followLists{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 7px;
+    background-color: #2F3336;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 20rem;
     font-size: 1rem;
-    gap: 2em;
 }
+/*.accaount{
+    
+    gap: 2rem;
+    
+}*/
+.paragraph{
+    padding-left: 1rem;   
+}
+.buttonFollow{
+    /*padding: .3rem 1rem;*/
+    gap: 1.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem; 
+    width: 3rem;  
+}
+h5{
+    color: #1D9BF0;
+}
+p{
+color: #6E767D;
+font-size: 0.5rem;
+}
+.link{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.profilephoto{
+    background: url("src/images/tweet-image.png") no-repeat center;
+    display: flex;
+    /*flex-direction: column;*/
+    gap: 1rem;
+    height: 20rem;
+    justify-content: space-between;
+    
+    
+}
+.buttonmore{
+flex-direction: column;
+margin-right: auto;
+}
+.button-useProfile{
+    padding: .3rem 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+.profileAvatar{
+    margin-left: 1rem;
+    margin-top: -3rem;
+}
+
+  
+  
+  
+  
+
 
 
 
