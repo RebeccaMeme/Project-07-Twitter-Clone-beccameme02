@@ -34,14 +34,15 @@ function LeftSidebar() {
             <MyLink text="More" urlImage={More} />
             <ButtonSidebar />
             <div className="bradley">
-            <MyLink  urlImage={Profilephoto} />
-            <div className="ortiz">
-            <MyLink text="BradleyOrtiz" urlImage={Cle} />
-            <MyLink urlImage={CommonMore}/>
+              <MyLink  urlImage={Profilephoto} />
+              {/* <div className="ortiz"> */}
+              <h2>BradleyOrtiz</h2>
+              <MyLink  urlImage={Cle} />
+              <MyLink urlImage={CommonMore}/>
+              {/* </div> */}
+              
             </div>
-            
-            </div>
-            <MyLink text="@ bradley"/>
+             <MyLink text="@ bradley"/>
 
 
 

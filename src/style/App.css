@@ -246,7 +246,7 @@ body{
 }
 .searchBox{
         height: 3rem;
-        width: 15rem;
+        width: 18rem;
         border-radius: 8rem;
         background-color: #272D33;
         display: flex;
@@ -280,14 +280,14 @@ body{
     justify-content: space-between;
     padding-right: 5px;
 }
-.ortiz{
+/*.ortiz{
     justify-content: space-between;
     flex-direction: row;
     
     
     align-items: center;
     gap: 1rem; 
-}
+}*/
 .Trends{
     display: flex;
     flex-direction: column;
@@ -301,7 +301,7 @@ body{
 .trendingLists{
     background-color: #2F3336;
     padding: 2rem;
-
+    width: 19rem;
     border-radius: 10px;
     margin-bottom: 5px;
     display: flex;
@@ -319,6 +319,8 @@ body{
     flex-direction: column;
     margin: 1rem 0;
     color: #6E767D;
+    font-size: 12px;
+    
     
 }
 .tredingBlockTitle{
@@ -339,7 +341,7 @@ body{
     justify-content: space-between;
 }
 .accaount{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     display: flex;
     justify-content: space-between;
     padding-left: 2rem;
@@ -354,8 +356,8 @@ body{
     background-color: #2F3336;
     padding: 2rem;
     border-radius: 10px;
-    width: 20rem;
-    font-size: 1rem;
+    width: 19rem;
+    font-size: 15px;
 }
 /*.accaount{
     
@@ -375,7 +377,7 @@ body{
     display: flex;
     justify-content: space-between;
     font-size: 1rem; 
-    width: 3rem;  
+    width: 4rem;  
 }
 h5{
     color: #1D9BF0;
